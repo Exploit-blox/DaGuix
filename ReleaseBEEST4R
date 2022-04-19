@@ -20,7 +20,7 @@ Section:NewButton("SwagMode", "Just Click The Script Dumb", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
 
-Section:NewButton("Artic V7.7", "Just Click The Script Dumb", function()
+Section:NewButton("Artic", "Just Click The Script Dumb", function()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
 end)
 local Section = Tab:NewSection("More Coming Soon !")
