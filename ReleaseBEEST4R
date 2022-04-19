@@ -25,7 +25,7 @@ Section:NewButton("Artic", "Just Click The Script Dumb", function()
 end)
 local Section = Tab:NewSection("More Coming Soon !")
 
-local Tab = Window:NewTab("Test")
+local Tab = Window:NewTab("Misc")
 
 local Section = Tab:NewSection("https://discord.gg/rw4YzxnUhp")
 Section:NewButton("Keyboard", "For Mobile", function()
