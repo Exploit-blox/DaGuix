@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Da Guix", "Midnight")
+local Window = Library.CreateLib("Da Guix V0.1", "Midnight")
 
 local Tab = Window:NewTab("Gui")
 
@@ -20,12 +20,18 @@ Section:NewButton("SwagMode", "Just Click The Script Dumb", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
 
+Section:NewButton("Artic V7.7", "Just Click The Script Dumb", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+local Section = Tab:NewSection("More Coming Soon !")
+
 local Tab = Window:NewTab("Test")
 
 local Section = Tab:NewSection("https://discord.gg/rw4YzxnUhp")
 Section:NewButton("Keyboard", "For Mobile", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
 end)
+local Section = Tab:NewSection("More Coming Soon !")
 
 local Tab = Window:NewTab("Aimlock")
 
@@ -296,6 +302,7 @@ wait(0.05)
     
 end
 end)
+local Section = Tab:NewSection("More Coming Soon !")
 
 local Tab = Window:NewTab("Setting")
 
