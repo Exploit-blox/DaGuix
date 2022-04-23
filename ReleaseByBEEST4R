@@ -621,4 +621,4 @@ end)
 local Tab = Window:NewTab("Credits")
 
 local Section = Tab:NewSection("Made By....")
-Section:NewLabel("made by BEEST4R#2746") 
+Section:NewLabel("made by BEEST4R#2746")
